@@ -5,3 +5,7 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
     plan: free
+
+requirements.txtFlask==3.0.3
+gunicorn==22.0.0
+templates /
